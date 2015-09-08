@@ -171,6 +171,7 @@ select {
 input[type="checkbox"],
 input[type="radio"] {
     margin: 3px;
+    vertical-align: top;
 }
 .owm_fake_input {
     -webkit-box-shadow: 0px 2px 6px -6px rgba(0,0,0,0.34) inset;
@@ -1289,7 +1290,7 @@ only screen and (min-device-pixel-ratio : 2) {
 }
 .owm_newsfeed_header_cont {
     display: table;
-    height: 34px;
+    height: 52px;
 }
 .owm_newsfeed_header_txt {
     display: table-cell;
@@ -1407,7 +1408,7 @@ only screen and (min-device-pixel-ratio : 2) {
 .owm_newsfeed_body_info_wrap {
     display: table;
     padding-left: 7px;
-    height: 34px;
+    height: 52px;
 }
 .owm_newsfeed_body_icon ~ .owm_newsfeed_body_info_wrap {
     padding-left: 48px;
@@ -1568,7 +1569,7 @@ only screen and (min-device-pixel-ratio : 2) {
 .owm_newsfeed_body_activity_info_wrap {
     display: table;
     padding-left: 48px;
-    height: 34px;
+    height: 52px;
 }
 .owm_newsfeed_body_activity_info {
     display: table-cell;
@@ -1781,10 +1782,10 @@ only screen and (min-device-pixel-ratio : 2) {
 }
 .owm_newsfeed_comment_thumb {
     float: left;
-    margin-right: -34px;
+    margin-right: -60px;
 }
 .owm_newsfeed_comment_info {
-    margin-left: 42px;
+    margin-left: 62px;
 }
 .owm_newsfeed_comment_txt {
     padding: 6px 0px;
@@ -2264,7 +2265,7 @@ only screen and (min-device-pixel-ratio : 2) {
             }
 }
 .owm_photo_string {
-    margin-left: 46px;
+    margin-left: 64px;
     padding: 2px 0px 0px;
     font-size: 81.25%;
 }
@@ -2396,8 +2397,8 @@ only screen and (min-device-pixel-ratio : 2) {
     display: inline-block;
 }
 .owm_avatar img {
-    width: 34px;
-    height: 34px;
+    width: 52px;
+    height: 52px;
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
     border-radius: 2px; 
@@ -2452,8 +2453,8 @@ only screen and (min-device-pixel-ratio : 2) {
     font-weight: bold;
 }
 .owm_sidebar_msg_block .owm_avatar img {
-    width: 34px;
-    height: 34px;
+    /*width: 34px;
+    height: 34px;*/
     border: 1px solid #c8c8c8;
 }
 .owm_sidebar_msg_item {
@@ -2477,7 +2478,7 @@ only screen and (min-device-pixel-ratio : 2) {
 }
 .owm_sidebar_msg_info {
     padding: 9px 0px 0px;
-    margin: 0px 61px 0px 44px;
+    margin: 0px 61px 0px 62px;
 }
 .owm_sidebar_msg_control {
     float: right;
@@ -2868,6 +2869,7 @@ input.owm_sidebar_profile_logout {
 }
 .owm_index_photo_item a {
     display: inline-block;
+    background-size: cover;
 }
 .owm_index_photo_item img {
     width: 60px;
@@ -3003,17 +3005,14 @@ only screen and (min-device-pixel-ratio : 2) {
 .owm_content_list_item:last-child {
     border-bottom: 1px solid #c8c8c8;
 }
-/*
 .owm_user_list_item {
     padding-right: 38px;
-    min-height: 50px;
+    min-height: 52px;
     position: relative;
     font-size: 81.25%;
 }
 .owm_user_list_item .owm_avatar {
     display: block;
-    width: 52px;
-    height: 52px;
     float: left;
     margin-right: -60px;
 }
@@ -3038,8 +3037,7 @@ only screen and (min-device-pixel-ratio : 2) {
 .owm_user_list_cont:last-child {
     margin-bottom: 0px;
 }
-*/
-.owm_user_list_item {
+/*.owm_user_list_item {
     padding-left: 44px;
     padding-right: 38px;
     min-height: 34px;
@@ -3064,7 +3062,7 @@ only screen and (min-device-pixel-ratio : 2) {
     font-weight: bold;
     color: #555;
     display: table-cell;
-}
+}*/
 .owm_user_list_item .owm_profile_online {
     position: absolute;
     top: 50%;
@@ -3347,7 +3345,11 @@ ul.owm_regular li {
     border-radius: 5px;
 }
 .owm_convers_list .owm_user_list_item {
-    min-height: 36px;
+    padding-left: 62px;
+}
+.owm_convers_list .owm_user_list_item .owm_avatar {
+    position: absolute;
+    left: 0;
 }
 .owm_convers_list .owm_content_list_item {
     background: #f8f9f8;
@@ -3359,10 +3361,10 @@ ul.owm_regular li {
     display: block;
     height: 10px;
     width: 10px;
-    left: 43px;
+    left: 62px;
     margin-top: 0px;
     position: absolute;
-    top: 14px;
+    top: 10px;
 }
 .owm_sidebar_convers_status_mail {
    background-image: url(images/ico_mail_small.png);
@@ -3431,7 +3433,7 @@ ul.owm_regular li {
 }
 .owm_chat_back .owm_nav_next {
     width: 26px;
-    height: 56px;
+    height: 72px;
     background-position: 0px center;
 }
 .owm_chat_info_wrap {
@@ -3442,20 +3444,20 @@ ul.owm_regular li {
     border-bottom: 1px solid #ababab;
 }
 .owm_chat_name_block {
-    min-height: 36px;
+    min-height: 52px;
     padding-left: 10px;
     padding-right: 38px;
 }
 .owm_chat_name_block .owm_avatar {
     display: block;
     float: left;
-    height: 36px;
+    height: 52px;
     margin-right: 6px;
-    width: 36px;
+    width: 52px;
 }
 .owm_chat_name {
     display: table;
-    height: 34px;
+    height: 52px;
 }
 .owm_chat_name a {
     color: #3f7fb8;
@@ -3468,7 +3470,7 @@ ul.owm_regular li {
     float: left;
     margin-left: 0px;
     margin-right: 6px;
-    margin-top: 13px;
+    margin-top: 23px;
 }
 .owm_chat_block {
     padding: 15px;
@@ -3615,7 +3617,7 @@ only screen and (min-device-pixel-ratio : 2) {
 }
 .owm_mail_back .owm_nav_next {
     width: 26px;
-    height: 56px;
+    height: 72px;
     background-position: 0px center;
 }
 .owm_mail_info_wrap {
@@ -3626,20 +3628,20 @@ only screen and (min-device-pixel-ratio : 2) {
     border-bottom: 1px solid #c6c6c6;
 }
 .owm_mail_name_block {
-    min-height: 36px;
+    min-height: 52px;
     padding-left: 10px;
     padding-right: 38px;
 }
 .owm_mail_name_block .owm_avatar {
     display: block;
     float: left;
-    height: 36px;
+    height: 52px;
     margin-right: 6px;
-    width: 36px;
+    width: 52px;
 }
 .owm_mail_name {
     display: table;
-    height: 34px;
+    height: 52px;
 }
 .owm_mail_name a {
     color: #3f7fb8;
@@ -3684,7 +3686,7 @@ only screen and (min-device-pixel-ratio : 2) {
     float: left;
 }
 .owm_mail_msg_cont {
-    padding-left: 47px;
+    padding-left: 62px;
 }
 .owm_mail_msg {
     font-size: 81.25%;
@@ -3859,6 +3861,9 @@ only screen and (min-device-pixel-ratio : 2) {
 .owm_checkbox_wrap,
 .owm_radio_wrap {
     padding: 3px;
+}
+.owm_checkbox_single {
+    margin: 0px 3px 10px 8px;
 }
 input[type="checkbox"] ~ label,
 input[type="radio"] ~ label {
@@ -4119,7 +4124,7 @@ input[type="radio"] ~ label {
     height: 150px;
 }
 body .owm_suitup-editor {
-    border-width: 0 0 1px 0;: 
+    border-width: 0 0 1px 0;
 }
 body a.owm_suitup-control:first-child, 
 body span.owm_suitup-control:first-child {
@@ -4475,10 +4480,10 @@ body a.owm_suitup-control.active {
 }
 .owm_card_user_pic {
     float: left;
-    margin-right: -36px;
+    margin-right: -52px;
 }
 .owm_card_user_info {
-    padding-left: 44px;
+    padding-left: 62px;
 }
 .owm_card_user_name {
     display: inline-block;
@@ -4722,6 +4727,9 @@ body a.owm_suitup-control.active {
 }
 /* ======== End of the Paging styles ======== */
 /* ======== Winks styles ======== */
+.owm_wink_back {
+    text-transform: capitalize;
+}
 .owm_wink_back.owm_lbutton {
     background-color: #dedede;
 }
@@ -4745,3 +4753,43 @@ body a.owm_suitup-control.active {
     color: #4d4d4d;
 }
 /* ======== End of the Winks styles ======== */
+/* ======== Search styles ======== */
+.owm_user_search_form {
+    padding-top: 10px;
+}
+.birthdate input[type=text] {
+    vertical-align: middle;
+}
+.ow_agerange_to {
+    vertical-align: middle;
+}
+/* ======== End of the Search styles ======== */
+/* ======== Bookmark styles ======== */
+.owm_ico_bookmark {
+    background: url(images/ico_bookmark.png) no-repeat 0px 0px;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min-device-pixel-ratio : 2) {
+        .owm_ico_bookmark {
+            background-image: url(images/ico_bookmark@2x.png);
+            background-size: 16px 23px;
+        }
+}
+.owm_bookmark_icon {
+    position: absolute;;
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 23px;
+    background-position: 0 -5px;
+}
+/* ======== End of the Bookmark styles ======== */
+/* ======== Promo Index styles ======== */
+.place_section > .mobile\.index-SKADATE_MCMP_PromoImageWidget {
+    margin-top: -20px;
+}
+.mobile\.index-SKADATE_MCMP_PromoImageWidget .owm_box_body_cont,
+.mobile\.index-SKADATE_MCMP_PromoImageWidget .owm_box_padding {
+    padding: 0px;
+}
+/* ======== End of the Promo Index styles ======== */
