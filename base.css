@@ -134,7 +134,7 @@ h1{
     text-transform: uppercase;
     margin-left: 0px;
     background-repeat: no-repeat;
-    font-family: 'open_sans_condensedbold', "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-family: 'open_sans_condensedbold', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 html body div .ow_page h1 {
     background: none;
@@ -435,7 +435,7 @@ ul.ow_regular li {
     padding: 12px 0px 0px 10px;
 }
 .ow_logo_wrap a {
-    font-family: 'open_sans_condensedbold', "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-family: 'open_sans_condensedbold', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
@@ -1006,7 +1006,7 @@ input[type=button]{
     font-weight: normal;
     cursor: pointer;
     height: 30px;
-    font-family: 'open_sans_condensedbold', "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-family: 'open_sans_condensedbold', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-transform: uppercase;
     font-size: 14px;
     border: none;
@@ -1934,7 +1934,7 @@ html body div .ow_box_cap_empty h3{
     line-height: 16px;    
     overflow: hidden;
     font-weight: normal;
-    font-family: 'open_sans_condensedbold', "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-family: 'open_sans_condensedbold', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: #444;
     font-size: 16px;
 }
@@ -2908,7 +2908,7 @@ span.ow_icon{
     width: 994px;
 }
 .ow_main_menu{
-    font-family: 'open_sans_condensedbold', "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-family: 'open_sans_condensedbold', "Lucida Sans Unicode", "Lucida Grande", sans-serif;
        display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -3000,7 +3000,7 @@ html[xmlns] .ow_main_menu.clearfix {
 
 .ow_content_menu{
     font-size: 0px;
-    font-family: /*'open_sans_condensedbold',*/ "Trebuchet MS", "Helvetica CY", sans-serif;
+    font-family: /*'open_sans_condensedbold',*/ "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     /*text-transform: uppercase;*/
     font-weight: normal;
     border: 1px solid #f8f8f8;
@@ -3951,7 +3951,7 @@ body .ow_avatar_console .avatar_console_label {
 
 /* ---- Photo styles ---- */
 .ow_photo_dragndrop {
-    font-family: 'UbuntuBold',"Trebuchet MS","Helvetica CY",sans-serif;
+    font-family: 'UbuntuBold',Verdana, Geneva, sans-serif;
     text-transform: uppercase;
     color: #666;
     background-color: #fff9ec;
@@ -5243,7 +5243,7 @@ body .floatbox_canvas .floatbox_container {
     padding: 8px 12px 0px;
     float: left;
     font-weight: normal;
-    font-family: 'open_sans_condensedbold', "Trebuchet MS", "Helvetica CY", sans-serif;    
+    font-family: 'open_sans_condensedbold', "Lucida Sans Unicode", "Lucida Grande", sans-serif;    
 }
 .floatbox_header .ow_box_cap_icons {
     float: right;
